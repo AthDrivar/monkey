@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <meta http-equiv= "content-type" content= "text/html; charset=UTF-8" >
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>MONKEY STREET SHOP</title>
+
+</head>
+<body>
+<div class="w3-container w3-center w3-white" style="margin-top:15px;">
+  <p>
+    <a href="vetements.html"><b id="shop" class="w3-button w3-round w3-white w3-hover-black w3-left ">Vêtements</b><a>
+    <a href="planches.html"><b id="shop" class="w3-button w3-round w3-white w3-hover-black w3-left ">Planches</b><a>
+    <a href="accessoires.html"><b id="shop" class="w3-button w3-round w3-white w3-hover-black w3-left ">Accessoires</b><a>
+
+      <div  id="search" class="w3-dropdown-click w3-right ">
+        <button onclick="myFunction()" class="w3-button w3-round w3-white w3-hover-black">
+          <label class="fa fa-search" ></label>
+        </button>
+
+        <div  id="Demo" class="w3-dropdown-content">
+          <input class="w3-input" type="text" style="width:100%" placeholder="Search...">
+        </div>
+        <script>
+        function myFunction() {
+        var x = document.getElementById("Demo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+        }
+        </script>
+      </div>
+
+  </p>
+  <a href="MONKEY STREET SHOP.html">
+    <img style="margin-top:45px;" src="LOGO ligne.jpg" alt="Italian Trulli" class="w3-display-topmiddle">
+  </a>
+
+</div>
+<div class="w3-panel w3-margin w3-white w3-center">
+  <!-- <h1 id="titre" > Nouveautés </h1> -->
+  <img style="margin-top:150px;" id="photo" src="T1.jpg" alt="Italian Trulli"><br>
+  <img id="photo" src="T2.jpg" alt="Italian Trulli"><br>
+  <img id="photo" src="S1.jpg" alt="Italian Trulli"><br>
+  <img id="photo" src="S2.jpg" alt="Italian Trulli"><br>
+  <img id="photo" src="T3.jpg" alt="Italian Trulli"><br>
+  <img id="photo" src="A1.jpg" alt="Italian Trulli"><br>
+
+
+</div>
+
+</body>
+
+</html>
